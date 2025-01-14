@@ -1,10 +1,8 @@
 interface Product {
-    id: number,
-    name: string
+  id: number;
+  name: string;
 }
 
-function newProduct(product: Product){
-    
-}
+function newProduct(product: Product) {}
 
 newProduct({ id: 1, name: "Produto X" });
