@@ -10,4 +10,4 @@ interface BookPreview {
 
 const book1: BookPreview = { title: "TS" }; // Sem Pick
 
-const book: Pick<Book, "title" | "pages"> = { title: "JS", pages: 150 }; // Com Pick
+const book2: Pick<Book, "title" | "pages"> = { title: "JS", pages: 150 }; // Com Pick
